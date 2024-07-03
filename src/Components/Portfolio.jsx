@@ -74,6 +74,7 @@ const Portfolio = () => {
               borderTopRightRadius: "15px",
               borderBottomRightRadius: "15px",
               boxShadow: "0 1px 4px rgba(0,0,0,.2)",
+              animation: "1s ease-out 0s 1 slideInLeft",
             }}
             alt={imageAltText}
           />
