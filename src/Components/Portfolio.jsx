@@ -31,28 +31,28 @@ const imageAltText = "web dev workflow";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "DevSpeak Blog",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A visually engaging, responsive blog platform with search filters, secure authentication, and user/admin modes for efficient interaction and management.",
+    url: "https://github.com/P666R/DevSpeak-MERN",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Natours Tour Booking Web App",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A tour booking application featuring search, booking, and profile management, with optimized API endpoints for enhanced user functionality.",
+    url: "https://github.com/P666R/Natours-NJS",
   },
   {
-    title: "My Resume Site",
+    title: "Nexter Employee Review System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "An employee review app with streamlined admin tasks, access control for user roles, and improved feedback delivery.",
+    url: "https://github.com/P666R/Employee-Review-System",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Ecommerce API",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "An e-commerce API with user management, product categorization, cart functionality, and order processing, featuring global error handling and rate limiting using Redis.",
+    url: "https://github.com/P666R/Ecommerce-Api",
   },
 ];
 
@@ -64,7 +64,17 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              borderRight: "1px solid rgb(204, 204, 204)",
+              borderTop: "1px solid rgb(204, 204, 204)",
+              borderBottom: "1px solid rgb(204, 204, 204)",
+              borderTopRightRadius: "15px",
+              borderBottomRightRadius: "15px",
+              boxShadow: "0 1px 4px rgba(0,0,0,.2)",
+            }}
             alt={imageAltText}
           />
         </div>

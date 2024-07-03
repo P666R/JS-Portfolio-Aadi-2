@@ -19,7 +19,7 @@ import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
 
-import image from "../images/bg-aboutme.jpg";
+import image from "../images/bg-footer.jpg";
 
 /**
  * 💡 Learning resources
@@ -119,7 +119,7 @@ const Footer = (props) => {
           </a>
         )}
       </div>
-      <p className="small" style={{ marginTop: 0, color: "white" }}>
+      <p className="small" style={{ marginTop: 0, color: "white", fontWeight: "400" }}>
         Created by {name}
       </p>
     </div>
